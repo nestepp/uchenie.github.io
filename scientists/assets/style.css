@@ -1,0 +1,556 @@
+a {
+  text-decoration: none;
+}
+
+header
+{
+  background-color:white;
+  width: 100%;
+}
+
+.navbar
+{
+  padding: 20px 0;
+}
+
+.nav-item
+{
+  font-weight: 600;
+  padding-right: 20px;
+  font-size: 1.2em;
+}
+
+.navbar-brand
+{
+  font-weight: 800;
+  font-size: 2.5em;
+  color: 262626;
+}
+
+.banner
+{
+  position: relative;
+  background-color: white;
+  min-height: 12vh;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0 130px;
+}
+
+.banner h1
+{
+  margin: 0;
+  padding: 0;
+  font-size: 3.5em;
+  font-weight: 400;
+}
+
+.banner p
+{
+  color: #888b98;
+  margin: 1em 0 0;
+  line-height: 2em;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+.naprav
+{
+  width: 200px;
+  height: 60px;
+  padding: 15px 10px;
+  margin-top: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 500ms ease-in-out;
+  background: linear-gradient(to right, #abdcff, #0396ff);
+  text-align: center;
+  transition: 0s;
+  color: white;
+  font-size: 18px;
+}
+
+.banner img
+{
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width:575px) {
+  .banner img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1200px)
+{
+  .banner .row
+  {
+    margin: 50px 0;
+  }
+
+  .banner .col-sm-8 {
+    width: 100%;
+  }
+
+  .banner .col-sm-4 {
+    width: 100%;
+  }
+
+  .banner img {
+    padding-top: 1em;
+  }
+
+  .banner {
+  padding: 20px 0 30px;
+}
+
+  .banner h1 {
+  font-size: 2.5em;
+}
+
+  .banner p{
+  line-height: 1.75em;
+  font-size: 1.0em;
+}
+
+  .banner li span{
+  font-size: 1.0em;
+}
+  .naprav {
+  width: 150px;
+  height: 40px;
+  font-size: 1em;
+  margin-top: 40 px;
+  padding: 9px 8px;
+  margin-top: 12px;
+}
+}
+
+@media (max-width: 991px)
+{
+.uchenInfo .row{
+  flex-direction: column;
+}
+
+.uchenInfo .col-sm-6 {
+  width: 100%;
+}
+
+.naprav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .banner .row
+  {
+    flex-direction: column-reverse;
+    margin-top: 30px;
+  }
+
+  .banner {
+  padding: 20px 0 30px;
+  }
+
+  .banner h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+.banner p {
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 1.0em;
+}
+
+
+.banner li span {
+  text-align: center;
+  font-size: 1.0em;
+}
+
+.naprav {
+  width: 150px;
+  height: 40px;
+  font-size: 1em;
+  margin-top: 40 px;
+  padding: 9px 8px;
+  margin-top: 12px;
+  border-radius: 6px;
+}
+
+.facts .col-sm-6{
+  width: 100%;
+}
+
+.facts .row {
+  flex-direction: column-reverse;
+}
+
+.facts h2{
+  text-align: center;
+}
+
+.facts h4{
+  text-align: center;
+}
+
+.facts p{
+  text-align: center;
+}
+}
+
+/* Product card */
+
+.napravs .descriptiontext {
+  color: #888b98;
+  text-align: center;
+}
+
+.napravs .card {
+  margin-top: 30px !important;
+  border: none;
+  -webkit-box-shadow: 4px 12px 19px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 12px 19px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 12px 19px 0px rgba(34, 60, 80, 0.2);
+  outline: none;
+  background-color: white;
+  border-radius: 20px;
+  transition: transform .3s;
+}
+
+.napravs .card:hover{
+  transform: translateY(-15px);
+  transition: transform .3s;
+}
+
+.napravs .text1{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  color: #888b98;
+  max-width: 275px;
+  width: 100%;
+}
+
+.napravs .info{
+  line-height: 20px;
+}
+
+.text1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+.math {
+  background: #fcc10a;
+  color: white;
+  text-decoration: none;
+}
+
+.phys span{
+  color: #21d8de;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.physics {
+  background: #0079a4;
+  color: white;
+  text-decoration: none;
+}
+
+.chems span{
+  color: #fd3c65;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.chemistry {
+  background: #ff1058e0;
+  color: white;
+  text-decoration: none;
+}
+
+.biol span{
+  color: #3a4bf2;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.biology {
+  background: #5faa46;
+  color: white;
+  text-decoration: none;
+}
+
+.astron span{
+  color: #8c4feb;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.astronomy {
+  background: #27536b;
+  color: white;
+  text-decoration: none;
+}
+
+.philos span{
+  color: #60c264;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.philosophy {
+  background: #f8bc54;
+  color: white;
+  text-decoration: none;
+}
+
+.math:hover, .physics:hover, .chemistry:hover, .biology:hover, .astronomy:hover, .philosophy:hover {
+  opacity: .8;
+}
+
+.cursor {
+  text-decoration: none;
+  cursor: painter;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+/* Product card */
+
+.banner li span {
+  color: #888b98;
+  margin: 1em 0 0;
+  line-height: 1.5em;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+.banner li {
+  color: #0396ff;
+  line-height: 1.5em;
+  margin-top: 15px;
+}
+
+.btn3 {
+  background: #0396ff;
+  color: white;
+  outline: none;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  font-size: 1.3em;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background: #0396ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .social_icon, .footmenu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+footer .social_icon li,
+footer .footmenu li {
+  list-style: none;
+}
+
+footer .social_icon li a{
+  font-size: 2em;
+  color: white;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+footer .social_icon li a:hover
+{
+  transform: translateY(-6px);
+}
+
+footer .footmenu li a{
+  font-size: 1.2em;
+  color: white;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  opacity: 0.75;
+}
+
+footer .footmenu li a:hover {
+  opacity: 1;
+}
+
+.formochka {
+  padding-bottom: 150px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15xp;
+}
+
+footer .wave
+{
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(wave.png);
+  background-size: 1000px 100px;
+}
+
+footer .wave#wave1
+{
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWave 4s linear infinite;
+}
+
+footer .wave#wave2
+{
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animateWave_02 4s linear infinite;
+}
+
+footer .wave#wave3
+{
+  z-index: 999;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWave 3s linear infinite;
+}
+
+footer .wave#wave4
+{
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animateWave_02 3s linear infinite;
+}
+
+@keyframes animateWave
+{
+  0%
+  {
+    background-position-x: 1000px;
+  }
+  100%
+  {
+    background-position-x: 0px;
+  }
+}
+
+@keyframes animateWave_02
+{
+  0%
+  {
+    background-position-x: 0px;
+  }
+  100%
+  {
+    background-position-x: 1000px;
+  }
+}
+
+.facts p{
+  color: #888b98;
+}
+
+.teamcards .box {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px #E2E9ED;
+  padding: 60px 10px;
+  position: relative;
+  z-index: 0;
+  transition: 0.2s all;
+  margin-bottom: 40px;
+}
+
+.teamcards .box:hover {
+  z-index: 1;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.teamcards .avtar {
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.teamcards .box_content {
+  margin: 10px 0;
+}
+
+.teamcards .box_content .title{
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+.teamcards .box_content .post {
+  color: #888b98;
+  font-size: 18px;
+  line-height: 2rem;
+  line-height: 2rem;
+}
+
+.teamcards .box .icons {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  opacity: 0;
+  transition: 0.2s all;
+  font-size: 1.5em;
+}
+
+.teamcards .box li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.teamcards .box li a{
+  color: #515F65;
+}
+
+.teamcards .box:hover .icons {
+  opacity: 1;
+}
+
+.mentor img {
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 40px;
+}
+
+@media (max-width: 374px) {
+  .banner img {
+    width: 250px;
+  }
+  
+}
